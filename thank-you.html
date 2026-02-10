@@ -1,14 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Thank You</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="message">
-    <h1>Thank you for your purchase!</h1>
-    <p>Your payment was successful. We’ll notify you once the document is ready for delivery.</p>
-  </div>
+    <div id="root">
+        <div class="grid al-sb min-h-screen bg-gradient-to-b from-[#faf8f3] via-[#ffe5e5] to-[#e5d9f2] relative overflow-hidden">
+            <div class="absolute inset-0 opacity-[0.03]"
+                style="background-image: radial-gradient(circle, rgb(0, 0, 0) 2px, transparent 2px); background-size: 40px 40px;">
+            </div>
+
+            <section class="min-h-center relative pt-20 pb-32 px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-6xl lg:text-7xl font-light text-[#1a1a1a] mb-10 leading-tight">
+                        Thank you for your purchase! </h1>
+                    <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">Your payment was successful.
+                        We'll notify you once the document is ready for delivery.</p>
+                </div>
+
+            </section>
+        
+            <section id="contacts" class="relative py-20 px-6 bg-white/50 backdrop-blur-sm">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-4xl font-light text-[#1a1a1a] mb-6">Get in Touch</h2>
+                    <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Have questions about our plans? We're here
+                        to help you choose the right option for your needs.</p>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-14 h-14 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center mb-4">
+                                <span class="ri-mail-line text-2xl text-purple-600">📧</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Email Us</h3><a
+                                href="mailto:support@example.com"
+                                class="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">support@example.com</a>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-14 h-14 bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl flex items-center justify-center mb-4">
+                                <span class="ri-phone-line text-2xl text-pink-600">📲</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Call Us</h3><a href="tel:+1234567890"
+                                class="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">+1 (234)
+                                567-890</a>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-14 h-14 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center mb-4">
+                                <span class="ri-chat-3-line text-2xl text-green-600">💬</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Live Chat</h3><button
+                                class="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">Start a
+                                conversation</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+            <footer class="relative py-12 px-6 bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d] text-white">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-4 gap-8 mb-8">
+                        <div><img alt="Logo" class="h-10 w-auto mb-4 brightness-0 invert"
+                                src="https://public.readdy.ai/ai/img_res/82569122-d237-4e0b-bcbb-2fd8fbb799ee.png">
+                            <p class="text-gray-400 text-sm leading-relaxed">Premium document access for professionals
+                                worldwide.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-4">Product</h4>
+                            <ul class="space-y-2 text-sm">
+                                <li><a href="#pricing"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Pricing</a>
+                                </li>
+                                <li><a href="#description"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Features</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Documentation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-4">Company</h4>
+                            <ul class="space-y-2 text-sm">
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">About
+                                        Us</a></li>
+                                <li><a href="#contacts"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Contact</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-4">Legal</h4>
+                            <ul class="space-y-2 text-sm">
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Privacy
+                                        Policy</a></li>
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Terms of
+                                        Service</a></li>
+                                <li><a href="#"
+                                        class="text-gray-400 hover:text-white transition-colors cursor-pointer">Cookie
+                                        Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                        <p class="text-gray-400 text-sm">© 2026 All rights reserved.</p>
+                        <div class="flex items-center gap-6"><a href="https://readdy.ai/?ref=logo" target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-gray-400 hover:text-white transition-colors text-sm cursor-pointer">Powered
+                                by
+                                Me</a>
+                            <div class="flex gap-4"><a href="#"
+                                    class="text-gray-400 hover:text-white transition-colors cursor-pointer"><i
+                                        class="ri-twitter-x-line text-xl"></i></a><a href="#"
+                                    class="text-gray-400 hover:text-white transition-colors cursor-pointer"><i
+                                        class="ri-linkedin-line text-xl"></i></a><a href="#"
+                                    class="text-gray-400 hover:text-white transition-colors cursor-pointer"><i
+                                        class="ri-github-line text-xl"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
 </body>
+
 </html>
