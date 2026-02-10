@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Document Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unlock Valuable Insights</h1>
+    <p>Get our expertly crafted digital document packed with actionable strategies. 
+       Perfect for professionals who want clarity and results without the fluff.</p>
+
+    <div class="pricing">
+      <div class="tariff">
+        <h2>Tariff A</h2>
+        <p>$10</p>
+        <button onclick="buy('tariffA')">Buy now</button>
+      </div>
+      <div class="tariff">
+        <h2>Tariff B</h2>
+        <p>$20</p>
+        <button onclick="buy('tariffB')">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="script.js"></script>
+</body>
+</html>
